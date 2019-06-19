@@ -1,2 +1,2 @@
 # v9-toucans-team-08
-Add-project-description-here | Voyage-9 | https://chingu.io/
+Our project was inspired by the TickyBot page.  However, this page will be more about "CoffeeBot."
