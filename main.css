@@ -2,8 +2,14 @@ html {
     font-family: 'Arvo', serif;
 }
 
-nav {
-    text-size: big;
+body {
+    background-color: #FFD05B;
+    padding-top: 2em;
+}
+
+li {
+    font-size: 1.2em;
+    padding: .3em;
 }
 
 
