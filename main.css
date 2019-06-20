@@ -1,3 +1,14 @@
 html {
     font-family: 'Arvo', serif;
 }
+
+nav {
+    text-size: big;
+}
+
+
+div.about,
+div.features,
+div.add {
+    text-align: center;
+}
