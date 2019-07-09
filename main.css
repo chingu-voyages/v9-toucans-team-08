@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
 html {
     font-family: 'Arvo', serif;
 }
@@ -5,6 +7,14 @@ html {
 body {
     background-color: #FFD05B;
     padding-top: 2em;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+#main {
+  height: 100vh;
+  width: 100vw;
 }
 
 li {
@@ -12,9 +22,62 @@ li {
     padding: .3em;
 }
 
+#features h1:after {
+     background: none repeat scroll 0 0 #F9B54C;
+     bottom: -5px;
+     content: "";
+     display: block;
+     margin: 0 auto;
+     height: 4px;
+     position: relative;
+     width: 200px;
+ }
 
-div.about,
-div.features,
-div.add {
-    text-align: center;
+#what h1:after {
+     background: none repeat scroll 0 0 #90ddaa;
+     bottom: -5px;
+     content: "";
+     display: block;
+     margin: 0 auto;
+     height: 4px;
+     position: relative;
+     width: 200px;
+ }
+
+#features {
+  height: 100%;
+  padding: 1em;
+  display: block;
+  background-color: #90ddaa;
+  text-align: center;
+}
+
+#card {
+  display: inline-block;
+  width:30%;
+  height: 100%;
+  background: #FFD05B;
+  margin: 20px;
+  padding: 20px 20px 20px 20px;
+  border: solid;
+  border-color: #8C5927;
+  border-radius: 3%;
+  box-shadow: 5px 10px #BA7939;
+  font-size: 20px;
+}
+
+#what {
+  height: 100%;
+  padding: 1em;
+  display: block;
+  background-color: #FFD05B;
+ 
+}
+
+#what .col-4 {
+  padding: 20px 20px 20px 20px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
 }
