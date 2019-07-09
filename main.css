@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
-
-html {
-    font-family: 'Arvo', serif;
-}
-
 body {
+    font-family: 'Arvo', Georgia, serif;
     background-color: #FFD05B;
     padding-top: 2em;
     height: 100vh;
