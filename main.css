@@ -93,5 +93,6 @@ a:link {
 nav li:hover {
   background-color: #95f0b3;
   border-radius: 8px;
+  text-shadow: 1px 1px 1px gray;
 
 }
