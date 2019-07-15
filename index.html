@@ -34,7 +34,7 @@
           <div class="h2" style="margin-bottom: 3%;"><b>Coffee</b>Bot</div>
           <div class = "h3" style="margin-bottom: 2%; color:#569c6d;">Never forget to contribute coffee</div>
           <button class="btn btn-default btn-lg" id="slackbutton">
-          <img src="images/slack-icon.JPG" width="40" height="40" /> Add to Slack
+          <img src="images/slack-icon.JPG" width="40" height="40" id="slackimage" /> Add to Slack
           </button>
         </div>
       
@@ -107,6 +107,8 @@ function mouseOver(){
   let element = document.getElementById("slackbutton");
   element.classList.remove("btn-lg");
   element.classList.add("btn-md");
+  let slackchange = document.getElementById("slackimage");
+  slackchange.classList.add("slackrotate");
 }
 
 function mouseOut(){
