@@ -15,17 +15,16 @@
   <body>
     <header></header>
     <main>
-      <div class="intro">
-           <div class="nav-bar">
-            <nav>
-                <ul style="list-style-type:none;">
-                  <li class="nav-item1"><a href = "#what">About</a></li>
-                  <li class="nav-item2"><a href = "#how">Features</a></li>
-                  <li class="nav-item3"><a href= "#start">Add to Slack</a></li>
-                  
-                </nav>
-        </div>
-      </div>
+        <div>
+            <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light"   
+            style="background-color:#90ddaa;">
+              <ul class="list-inline h4">
+                <li class="list-inline-item"><a href="#what" style="color:#8c5927; margin-right: 2%;">About</a></li>
+                <li class="list-inline-item"><a href="#how" style="color:#8c5927; margin-right: 2%;">Features</a></li>
+                <li class="list-inline-item"><a href="#start" style="color:#8c5927">Add to Slack</a></li>
+    
+            </nav>
+          </div>
       <div class="row" style="margin-left: 15%; margin-right: 15%;" id="intro">
         <div class="col-md-6">
           <div class="h2" style="margin-bottom: 3%;"><b>Coffee</b>Bot</div>
@@ -39,7 +38,27 @@
         CoffeeBot image placeholder
         </div>
       </div>
-        </div>
+      
+      <div class="row" id="what">
+          <h1 style="color:#8c5927">What Is CoffeeBot</h1>
+          <div class="col-4">
+            <p>CoffeeBot is a Slack Bot that automates your Chingu Cohort donations. Never forget that weekly coffee
+              contribution again!</p>
+          </div>
+          <div class="col-4">
+            <p>CoffeeBot uses PayPal’s APIs to complete your donations according to the schedule that you choose. These
+              continue as recurring payments throughout the duration of your Voyage, with a reminder being sent prior to
+              authorization.</p>
+          </div>
+          <div class="col-4">
+            <p>Payments automatically cease and a report will be sent with the total funds contributed on the last day of
+              your cohort.</p>
+          </div>
+        </div> 
+
+
+
+
       <div class="row" id="features">
         <h1>How It Works</h1>
         <div class="cardbox">
