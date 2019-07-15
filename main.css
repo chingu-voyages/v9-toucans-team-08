@@ -83,6 +83,11 @@ li {
   margin-right: 20%;
 }
 
+#CoffeeBotLogo
+{
+  border-radius: 3%;
+}
+
 
 a:link {
   color: #8c5927;
