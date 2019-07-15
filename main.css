@@ -47,7 +47,7 @@ li {
   text-align: center;
 }
 
-#card {
+.card {
   display: inline-block;
   width:30%;
   height: 100%;
