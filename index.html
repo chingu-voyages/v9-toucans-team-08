@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CoffeeBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoffeeBot" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css" />
+    <title>CoffeeBot</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>CoffeeBot</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CoffeeBot" />
-  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-  <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-  <title>CoffeeBot</title>
-</head>
-
-<body>
-  
-    
-      <div>
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light"   
-        style="background-color:#90ddaa;">
-          <ul class="list-inline h4">
-            <li class="list-inline-item"><a href="#what" style="color:#8c5927; margin-right: 2%;">About</a></li>
-            <li class="list-inline-item"><a href="#how" style="color:#8c5927; margin-right: 2%;">Features</a></li>
-            <li class="list-inline-item"><a href="#start" style="color:#8c5927">Add to Slack</a></li>
-
-        </nav>
+  <body>
+    <header></header>
+    <main>
+      <div class="intro">
+           <div class="nav-bar">
+            <nav>
+                <ul style="list-style-type:none;">
+                  <li class="nav-item1"><a href = "#what">About</a></li>
+                  <li class="nav-item2"><a href = "#how">Features</a></li>
+                  <li class="nav-item3"><a href= "#start">Add to Slack</a></li>
+                  
+                </nav>
+        </div>
       </div>
       <div class="row" style="margin-left: 15%; margin-right: 15%;" id="intro">
         <div class="col-md-6">
@@ -42,35 +39,21 @@
         CoffeeBot image placeholder
         </div>
       </div>
-    
-    
-
-
-    <div class="row" id="what">
-      <h1 style="color:#8c5927">What Is CoffeeBot</h1>
-      <div class="col-4">
-        <p>CoffeeBot is a Slack Bot that automates your Chingu Cohort donations. Never forget that weekly coffee
-          contribution again!</p>
-      </div>
-      <div class="col-4">
-        <p>CoffeeBot uses PayPal’s APIs to complete your donations according to the schedule that you choose. These
-          continue as recurring payments throughout the duration of your Voyage, with a reminder being sent prior to
-          authorization.</p>
-      </div>
-      <div class="col-4">
-        <p>Payments automatically cease and a report will be sent with the total funds contributed on the last day of
-          your cohort.</p>
-      </div>
-    </div>
-    
-    <div class="row" id="features">
-      <h1>How It Works</h1>
-      <div class="cardbox">
-        <div id="card">
-          <p id="description">Adding this handy little CoffeeBot to your cohort’s slack is very easy!</p>
         </div>
-        <div id="card">
-          <p id="description">You can set up a donation by typing <code>/donate</code> into the chat field.</p>
+      <div class="row" id="features">
+        <h1>How It Works</h1>
+        <div class="cardbox">
+        <div class="card">
+  <p id="description">Adding this handy little CoffeeBot to your cohort’s slack is very easy!</p>
+          <i class="far fa-check-circle fa-10x"></i>
+        </div>
+      <div class="card">
+        <p id="description">You can set up a donation by typing <code>/donate</code> into the chat field.</p>
+        <i class="far fa-comment-alt fa-10x"></i>
+        </div>
+      <div class="card">
+  <p id="description">Enter your voyage, the amount you’d like to donate, and frequency of the donation.</p>
+        <i class="fas fa-recycle fa-10x"></i>
         </div>
         <div id="card">
           <p id="description">Enter your voyage, the amount you’d like to donate, and frequency of the donation.</p>
