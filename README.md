@@ -13,4 +13,4 @@ To view our project, click [here](https://chingu-voyages.github.io/v9-toucans-te
 
 ## Further thoughts:
 
-This is our first Chingu voyage and it was awesome! It gave us exposure to Agile methodology, remote team partnership, BootStrap, Image Creation, special CSS effects, etc. This project was built on lots of :coffee: :wink:
+This is our first Chingu voyage and it was awesome! It gave us exposure to Agile methodology, remote team collaboration, BootStrap, Image Creation, special CSS effects, etc. This project was built on lots of :coffee: :wink:
