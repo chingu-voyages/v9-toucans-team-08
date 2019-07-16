@@ -9,7 +9,7 @@ To view our project, click [here](https://chingu-voyages.github.io/v9-toucans-te
 ## Resources and Acknowledgements:
 
 - The Chingu Voyage Handbook (https://chingu.gitbook.io/chingu-handbook-voyage-9/cohort-guide/).
-- [The Chingu team](https://chingu.io/team). We thank them for their patience and wisdom. We love the colloborative community they bring together and because of this, we learned alot together.
+- [The Chingu team](https://chingu.io/team). We thank them for their patience and wisdom. We love the colloborative community they bring together and because of this, we build stuff together. :raised_hands:
 
 ## Further thoughts:
 
