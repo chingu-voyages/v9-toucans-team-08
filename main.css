@@ -42,7 +42,7 @@ li {
 
 }
 
-#start h1:after {
+#add h1:after {
   background: none repeat scroll 0 0 #90DDAA;
   bottom: -5px;
   content: "";
