@@ -1,79 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>CoffeeBot</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CoffeeBot" />
-    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    <link rel="stylesheet" href="main.css" />
-    <title>CoffeeBot</title>
-  </head>
 
-  <body>
-    <header></header>
-    <main>
-        <div>
-            <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light"   
-            style="background-color:#90ddaa;">
-              <ul class="list-inline h4">
-                <li class="list-inline-item"><a href="#what" style="color:#835426; margin-right: 2%;">About</a></li>
-                <li class="list-inline-item"><a href="#how" style="color:#8c5927; margin-right: 2%;">Features</a></li>
-                <li class="list-inline-item"><a href="#start" style="color:#8c5927">Add to Slack</a></li>
-    
-            </nav>
-          </div>
-      <div class="row" style="margin-left: 15%; margin-right: 15%;" id="intro">
-        <div class="col-md-6">
-          <div class="h2" style="margin-bottom: 3%;"><b>Coffee</b>Bot</div>
-          <div class = "h3" style="margin-bottom: 2%; color:#569c6d;">Never forget to contribute coffee</div>
-           
-          <button class="btn btn-default btn-lg" id="slackbutton" style="background-color:#b0f0c6">
+<head>
+  <meta charset="utf-8" />
+  <title>CoffeeBot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CoffeeBot" />
+  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="main.css" />
+  <title>CoffeeBot</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div>
+      <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light" style="background-color:#90ddaa;">
+        <ul class="list-inline h4">
+          <li class="list-inline-item"><a href="#what" style="color:#835426; margin-right: 2%;">About</a></li>
+          <li class="list-inline-item"><a href="#how" style="color:#8c5927; margin-right: 2%;">Features</a></li>
+          <li class="list-inline-item"><a href="#start" style="color:#8c5927">Add to Slack</a></li>
+
+      </nav>
+    </div>
+    <div class="row" style="margin-left: 15%; margin-right: 15%;" id="intro">
+      <div class="col-md-6">
+        <div class="h2" style="margin-bottom: 3%;"><b>Coffee</b>Bot</div>
+        <div class="h3" style="margin-bottom: 2%; color:#569c6d;">Never forget to contribute coffee</div>
+
+        <button class="btn btn-default btn-lg" id="slackbutton" style="background-color:#b0f0c6">
           <img src="images/slack-icon.JPG" width="40" height="40" id="slackimage" /> Add to Slack
-          </button>
-        </div>
-      
-        <div class="col-md-6 h2">
-        <img src="images/CoffeeBot.png" width="500" height="300" id="CoffeeBotLogo" />
-        </div>
+        </button>
       </div>
-      
-      <div class="row" id="what">
-          <h1 style="color:#8c5927">What Is CoffeeBot</h1>
-          <div class="col-4">
-            <p>CoffeeBot is a Slack Bot that automates your Chingu Cohort donations. Never forget that weekly coffee
-              contribution again!</p>
-          </div>
-          <div class="col-4">
-            <p>CoffeeBot uses PayPal’s APIs to complete your donations according to the schedule that you choose. These
-              continue as recurring payments throughout the duration of your Voyage, with a reminder being sent prior to
-              authorization.</p>
-          </div>
-          <div class="col-4">
-            <p>Payments automatically cease and a report will be sent with the total funds contributed on the last day of
-              your cohort.</p>
-          </div>
-        </div> 
+
+      <div class="col-md-6 h2">
+        <img src="images/CoffeeBot.png" width="500" height="300" id="CoffeeBotLogo" />
+      </div>
+    </div>
+
+    <div class="row" id="what">
+      <h1 style="color:#8c5927">What Is CoffeeBot</h1>
+      <div class="col-4">
+        <p>CoffeeBot is a Slack Bot that automates your Chingu Cohort donations. Never forget that weekly coffee
+          contribution again!</p>
+      </div>
+      <div class="col-4">
+        <p>CoffeeBot uses PayPal’s APIs to complete your donations according to the schedule that you choose. These
+          continue as recurring payments throughout the duration of your Voyage, with a reminder being sent prior to
+          authorization.</p>
+      </div>
+      <div class="col-4">
+        <p>Payments automatically cease and a report will be sent with the total funds contributed on the last day of
+          your cohort.</p>
+      </div>
+    </div>
 
 
 
 
-      <div class="row" id="features">
-        <h1>How It Works</h1>
-        <div class="cardbox">
+    <div class="row" id="features">
+      <h1>How It Works</h1>
+      <div class="cardbox">
         <div class="card">
-  <p id="description">Adding this handy little CoffeeBot to your cohort’s slack is very easy!</p>
+          <p id="description">Adding this handy little CoffeeBot to your cohort’s slack is very easy!</p>
           <i class="far fa-check-circle fa-10x"></i>
         </div>
-      <div class="card">
-        <p id="description">You can set up a donation by typing <code>/donate</code> into the chat field. Enter a voyage & amount.</p>
-        <i class="far fa-comment-alt fa-10x"></i>
+        <div class="card">
+          <p id="description">You can set up a donation by typing <code>/donate</code> into the chat field. Enter a
+            voyage & amount.</p>
+          <i class="far fa-comment-alt fa-10x"></i>
         </div>
-      <div class="card">
-  <p id="description">Enter a donation frequency and it will recur for the duration of your cohort.</p>
-        <i class="fas fa-recycle fa-10x"></i>
+        <div class="card">
+          <p id="description">Enter a donation frequency and it will recur for the duration of your cohort.</p>
+          <i class="fas fa-recycle fa-10x"></i>
         </div>
         <div id="card">
           <p id="description">Enter your voyage, the amount you’d like to donate, and frequency of the donation.</p>
@@ -81,45 +82,49 @@
       </div>
 
     </div>
-    
+
 
     <div class="add">
       <h2 id="start">
         Start Using CoffeeBot today</h1>
         <div>
         </div>
-        <div class = "h4" style="margin-top: 3%; margin-left: 33%; margin-right: 33%;">Never let a friend go without coffee!  CoffeeBot allows Slack team members to gift coffee to each other</div>
+        <div class="h4" style="margin-top: 3%; margin-left: 33%; margin-right: 33%;">Never let a friend go without
+          coffee! CoffeeBot allows Slack team members to gift coffee to each other</div>
         <div style="margin-top: 3%; margin-bottom: 3%;">
-            <button class="btn btn-default btn-lg" style="background-color:#b0f0c6">
-                <img src="images/slack-icon.JPG" width="40" height="40" /> Add to Slack
-            </button>
+          <button class="btn btn-default btn-lg" style="background-color:#b0f0c6">
+            <img src="images/slack-icon.JPG" width="40" height="40" /> Add to Slack
+          </button>
         </div>
-      </div>
+    </div>
 
 
 
-  <footer class="h6 text-muted">
-    Because we are passionate about  <i class="fas fa-mug-hot"></i>, this was made by the Chingu Toucans 8 team. <br>
-    The app is not created by, affliated with, or supported by Slack Technologies, Inc.
-  </footer>
+    <footer class="h6 text-muted">
+      Because we are passionate about <i class="fas fa-mug-hot"></i>, this was made by the Chingu Toucans 8 team. <br>
+      The app is not created by, affliated with, or supported by Slack Technologies, Inc.
+    </footer>
 
-<script>
-document.getElementById("slackbutton").addEventListener("mouseover", mouseOver);
-document.getElementById("slackbutton").addEventListener("mouseout", mouseOut);
-function mouseOver(){
-  let element = document.getElementById("slackbutton");
-  element.classList.remove("btn-lg");
-  element.classList.add("btn-md");
-  let slackchange = document.getElementById("slackimage");
-  slackchange.classList.add("slackrotate");
-}
+    <script>
+      document.getElementById("slackbutton").addEventListener("mouseover", mouseOver);
+      document.getElementById("slackbutton").addEventListener("mouseout", mouseOut);
 
-function mouseOut(){
-  let element = document.getElementById("slackbutton");
-  element.classList.remove("btn-md");
-  element.classList.add("btn-lg");
-}
-</script>
+      function mouseOver() {
+        let element = document.getElementById("slackbutton");
+        element.classList.remove("btn-lg");
+        element.classList.add("btn-md");
+        let slackchange = document.getElementById("slackimage");
+        slackchange.classList.add("slackrotate");
+      }
+
+      function mouseOut() {
+        let element = document.getElementById("slackbutton");
+        element.classList.remove("btn-md");
+        element.classList.add("btn-lg");
+        let slackchange = document.getElementById("slackimage");
+        slackchange.classList.remove("slackrotate");
+      }
+    </script>
 
 
 </body>
