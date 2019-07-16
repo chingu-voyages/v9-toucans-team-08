@@ -68,7 +68,7 @@ li {
   height: 100%;
   padding: 1em;
   display: block;
-  background-color: #FFD05B;
+  background-color: #F9B54C;
 
 }
 
@@ -83,8 +83,7 @@ li {
   margin-right: 20%;
 }
 
-#CoffeeBotLogo
-{
+#CoffeeBotLogo {
   border-radius: 3%;
 }
 
@@ -107,4 +106,9 @@ nav li:hover {
   cursor: default;
   transform: rotate(360deg);
   transition: all 0.3s ease-in-out 0s;
+}
+
+#intro {
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
