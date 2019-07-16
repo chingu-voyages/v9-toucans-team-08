@@ -31,7 +31,19 @@ li {
 }
 
 #what h1:after {
-  background: none repeat scroll 0 0 #90ddaa;
+  background: none repeat scroll 0 0 #90DDAA;
+  bottom: -5px;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  height: 4px;
+  position: relative;
+  width: 200px;
+
+}
+
+#start h1:after {
+  background: none repeat scroll 0 0 #F9B54C;
   bottom: -5px;
   content: "";
   display: block;
@@ -46,7 +58,7 @@ li {
   height: 100%;
   padding: 1em;
   display: block;
-  background-color: #90ddaa;
+  background-color: #90DDAA;
   text-align: center;
 }
 
@@ -90,7 +102,7 @@ li {
 
 
 a:link {
-  color: #8c5927;
+  color: #8C5927;
   text-decoration: none;
 
 }
