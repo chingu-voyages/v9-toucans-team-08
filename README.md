@@ -4,13 +4,13 @@ This project was created by the Toucans Team 8 (Vik Williamson and Jennifer Lee)
 
 ## To get started:
 
-To view our project, click on this [https://chingu-voyages.github.io/v9-toucans-team-08/](https://chingu-voyages.github.io/v9-toucans-team-08/)
-
-## Dependencies:
-
-- just a web browser
+To view our project, click [here](https://chingu-voyages.github.io/v9-toucans-team-08/)
 
 ## Resources and Acknowledgements:
 
 - The Chingu Voyage Handbook (https://chingu.gitbook.io/chingu-handbook-voyage-9/cohort-guide/).
 - [The Chingu team](https://chingu.io/team). We thank them for their patience and wisdom. We love the colloborative community they bring together and because of this, we learned alot together.
+
+## Further thoughts:
+
+This is our first Chingu voyage and it was awesome! It gave us exposure to Agile methodology, remote team partnership, BootStrap, Image Creation, special CSS effects, etc. This project was built on lots of :coffee: :wink:
